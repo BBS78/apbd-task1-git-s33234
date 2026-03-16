@@ -65,6 +65,7 @@ class Cat
         for (int i = 0; i < values.Length; i++)
         {
             sum += values[i];
+            Console.WriteLine(sum);
         }
         return sum/values.Length;
     }
