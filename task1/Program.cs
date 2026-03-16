@@ -103,7 +103,7 @@ class Cat
 
         Console.WriteLine(Cat.CalculateAverage([1, 2, 3, 4, 5]));
         Console.WriteLine(Cat.CalculateMax([1, 2, 3, 4, 5]));
-        Console.WriteLine(Cat.CalculateMax([1, 2, 3, 4, 5]));
+        Console.WriteLine(Cat.CalculateMin([1, 2, 3, 4, 5]));
 
 
     }
