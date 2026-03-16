@@ -78,6 +78,15 @@ class Cat
         }
         return temp;
     }
+    public static int CalculateMin(int[] values)
+    {
+        int temp = values[0];
+        for (int i = 0; i < values.Length; i++)
+        {
+            if (values[i] < temp) { temp = values[i]; }
+        }
+        return temp;
+    }
 
 
     static void Main(string[] args)

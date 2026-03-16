@@ -1,1 +1,2 @@
 # apbd-task1-git-s33234
+In the task 5 merge was not fast-forward because both main and feature-max had new commits after the branch was created. Since main had its own commit git could not simply move the branch pointer forward, so instead it had to create a merge commit to combine the histories of both branches.
