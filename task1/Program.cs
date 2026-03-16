@@ -68,6 +68,15 @@ class Cat
         }
         return sum/values.Length;
     }
+    public static int CalculateMax(int[] values)
+    {
+        int temp = 0;
+        for (int i = 0; i < values.Length; i++)
+        {
+            if (values[i] > temp) { temp = values[i]; }
+        }
+        return temp;
+    }
 
 
     static void Main(string[] args)
@@ -83,5 +92,7 @@ class Cat
         //child.PrintInfo();
 
         Console.WriteLine(Cat.CalculateAverage([1, 2, 3, 4, 5]));
+        Console.WriteLine(Cat.CalculateMax([1, 2, 3, 4, 5]));
+
     }
 }
